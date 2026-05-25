@@ -110,7 +110,7 @@ const Projects = () => {
           transition={{ duration: 1, ease: [0.25, 0.1, 0.25, 1] }}
           className="mb-24 flex flex-col items-center text-center"
         >
-          <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4 tracking-tight font-heading">Curated Projects</h2>
+          <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4 tracking-tight font-heading">Projects</h2>
           <p className="text-gray-500 text-lg">Real-world applications built with modern web technologies.</p>
         </motion.div>
 
