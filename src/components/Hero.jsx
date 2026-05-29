@@ -2,10 +2,13 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   const traits = [
-    "✦ FRONTEND DEVELOPER",
+    "✦ FULL STACK DEVELOPER",
     "✦ REACT.JS",
+    "✦ EXPRESS.JS",
+    "✦ NODE.JS",
     "✦ PROBLEM SOLVER",
     "✦ HTML & CSS",
+    "✦ JAVA",
     "✦ PYTHON & C",
     "✦ CONTINUOUS LEARNER"
   ];
