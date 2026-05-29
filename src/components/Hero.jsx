@@ -10,7 +10,15 @@ const Hero = () => {
     "✦ HTML & CSS",
     "✦ JAVA",
     "✦ PYTHON & C",
-    "✦ CONTINUOUS LEARNER"
+    "✦ CONTINUOUS LEARNER",
+    "✦ FULL STACK DEVELOPER",
+    "✦ REACT.JS",
+    "✦ EXPRESS.JS",
+    "✦ NODE.JS",
+    "✦ PROBLEM SOLVER",
+    "✦ HTML & CSS",
+    "✦ JAVA",
+    "✦ PYTHON & C"
   ];
 
   const slideInLeft = {
