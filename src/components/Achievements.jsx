@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const Achievements = () => {
   const achievements = [
-    "Solved 500+ Data Structures & Algorithms Problems — LeetCode & GeeksForGeeks",
+    "Solved 700+ Data Structures & Algorithms Problems — LeetCode & GeeksForGeeks",
     "Achieved 5 Stars in Problem Solving on HackerRank",
     "Participated in LeetCode Weekly Contests, Ranked top 7%",
     "Strong problem-solving in Monotonic Stack, Sliding Window, and Dynamic Programming"
