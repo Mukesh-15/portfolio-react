@@ -46,7 +46,7 @@ const Contact = () => {
           ))}
           
           <motion.a
-            href="/resume.pdf"
+            href="/Mukesh's_Resume.pdf"
             download
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
