@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 
-const ProjectCard = ({ index, category, title, descriptionList, toolsStr, imgUrl, link, delay }) => {
+const ProjectCard = ({ index, category, title, descriptionList, toolsStr, imgUrl, link, delay, demo }) => {
   return (
     <motion.div 
       initial={{ opacity: 0, y: 60 }}
@@ -46,7 +46,7 @@ const ProjectCard = ({ index, category, title, descriptionList, toolsStr, imgUrl
         viewport={{ once: false, margin: "-100px" }}
         transition={{ duration: 1.2, delay: delay + 0.1, ease: [0.25, 0.1, 0.25, 1] }}
         className="w-full md:w-7/12 relative group cursor-pointer" 
-        onClick={() => window.open(link, "_blank")}
+        onClick={() => window.open(demo, "_blank")}
       >
         <div className="absolute inset-0 z-20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
           <div className="bg-gray-900 text-white font-bold px-6 py-3 rounded-full flex items-center shadow-2xl scale-90 group-hover:scale-100 transition-transform duration-300">
@@ -71,6 +71,22 @@ const Projects = () => {
     {
       index: "01",
       category: "FULLSTACK \u00B7 API",
+      title: "TalkBoard- Collaborative Coding & Video Interview Platform ",
+      descriptionList: [
+        "Engineered a full-stack collaborative coding platform supporting real-time code synchronization and peer-to-peer video communication for technical interview simulations.",
+        "Implemented low-latency collaborative editing using Socket.IO and operational room-based event broadcasting.",
+        "Built WebRTC signaling infrastructure to establish direct audio/video connections between participants with STUN-based NAT traversal.",
+        "Implemented secure OTP-based email authentication with JWT authorization and protected routes.",
+        "Integrated Monaco Editor for a VS Code–like coding experience."
+      ],
+      toolsStr: "React.js, Express.js, Socket.IO, WebRTC, Node.js",
+      imgUrl: "/media/images/talkBoard.png", 
+      link: "https://github.com/Mukesh-15/TalkBoard",
+      demo: "https://talk-board20.vercel.app/"
+    },
+    {
+      index: "02",
+      category: "FULLSTACK \u00B7 API",
       title: "Crime Reporting & Case Management System",
       descriptionList: [
         "Built a Django-based Crime Reporting System to securely submit, manage, and track crime reports online.",
@@ -81,10 +97,11 @@ const Projects = () => {
       ],
       toolsStr: "Python, Django, Tailwind CSS, MySQL",
       imgUrl: "/media/images/crime-tracker.png", 
-      link: "https://github.com/Mukesh-15/Crime-Reporting-System"
+      link: "https://github.com/Mukesh-15/Crime-Reporting-System",
+      demo: "https://github.com/Mukesh-15/Crime-Reporting-System"
     },
     {
-      index: "02",
+      index: "03",
       category: "MERN \u00B7 REAL-TIME",
       title: "Real-Time One-to-One Chat Application",
       descriptionList: [
@@ -95,7 +112,8 @@ const Projects = () => {
       ],
       toolsStr: "Mongo DB, Express.js, React.js, Node.js, Socket.IO",
       imgUrl: "/media/images/chat-app.png", 
-      link: "https://github.com/Mukesh-15/MeoChat" 
+      link: "https://github.com/Mukesh-15/MeoChat",
+      demo: "https://meochat-yem1.onrender.com/"
     }
   ];
 
