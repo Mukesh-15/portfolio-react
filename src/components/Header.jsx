@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 
 const Header = () => {
-  const [active, setActive] = useState('home');
+  const [active, setActive] = useState('About');
 
   const navLinks = [
-    { name: 'Home', href: '#home', id: 'home' },
+    { name: 'About', href: '#About', id: 'About' },
     { name: 'Projects', href: '#projects', id: 'projects' },
     { name: 'Education', href: '#education', id: 'education' },
     { name: 'Contact', href: '#contact', id: 'contact' },
